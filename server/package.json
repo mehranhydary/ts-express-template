@@ -1,0 +1,17 @@
+{
+    "name": "tinyhouse-part-1-server",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.2",
+        "@types/node": "^12.12.14",
+        "ts-node": "^8.5.4",
+        "typescript": "^3.7.3"
+    },
+    "scripts": {
+        "start": "nodemon src/index.ts",
+        "build": "tsc -p ./"
+    }
+}
